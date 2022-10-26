@@ -1,15 +1,77 @@
----
----
-
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<script src="https://kit.fontawesome.com/f64898f352.js" crossorigin="anonymous"></script>
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Jake Gonzalez | Home</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<div class="bg-slate-500">
+			<div class="flex justify-center pt-12">
+				<div class="w-full max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+					<div class="flex justify-end px-4 pt-4"></div>
+					<div class="flex flex-col items-center pb-10">
+						<img class="object-contain mb-3 w-36 h-36 rounded-full shadow-lg" src="/images/pic.jpg"/>
+						<h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Jake Gonzalez</h5>
+						<span class="text-sm text-gray-500 dark:text-gray-400">Junior Software Engineer</span>
+						<div class="flex mt-4 space-x-3 md:mt-6">
+							<a href="/contact" class="inline-flex items-center py-2 px-4 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Contact</a>
+							<a href="/files/resume_jg.pdf" class="inline-flex items-center py-2 px-4 text-sm font-medium text-center text-white bg-orange-700 rounded-lg hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800" download>Download Resume</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="flex justify-center pt-12">
+				<div class="w-full max-w-xl bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+					<div class="flex justify-end px-4 pt-4"></div>
+					<div class="flex flex-col items-center pb-10">
+						<h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">About</h5>
+						<p class="mb-3 font-light text-gray-800 dark:text-gray-400 mx-8">
+							Hi, I'm Jake. I am a recent gradute from the University of Maryland Global Campus with a BS in Computer Science. I enjoy working with Python and some Java. In my free time I have been experimenting with web development using various Javascript frameworks. I am open to junior software development and engineering roles. You can reach me through the contact button or links down below.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="flex justify-center pt-12">
+				<div class="w-full max-w-xl bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+					<div class="flex justify-end px-4 pt-4"></div>
+					<div class="flex flex-col items-center pb-10">
+						<h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Projects</h5>
+						<ol class="relative border-l border-gray-200 dark:border-gray-700 mx-8">                  
+							<li class="mb-10 ml-4">
+								<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+								<time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">October 2022</time>
+								<h3 class="text-lg font-semibold text-gray-900 dark:text-white">This website!</h3>
+								<p class="text-base font-normal text-gray-500 dark:text-gray-400">This website was built using Astro and designed with Tailwind CSS. The purpose is to showcase myself and learn more front end development.</p>
+							</li>
+							<li class="ml-4">
+								<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+								<time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">August 2022</time>
+								<h3 class="text-lg font-semibold text-gray-900 dark:text-white">ImageMetrics</h3>
+								<p class="text-base font-normal text-gray-500 dark:text-gray-400">A group project worked on at the Univeristy of Maryland Global Campus. Built with Flask, <a href="https://github.com/timwstrickland/metadata_analyzation.git" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">ImageMetrics</a> allows a user to upload an image to the website, view metadata, and export the data to a CSV. I contributed to the backend with Python.</p>
+							</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+			<div class="flex justify-center pt-12 pb-12">
+				<div class="w-full max-w-xl bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+					<div class="flex justify-end px-4 pt-4"></div>
+					<div class="flex flex-col items-center pb-10">
+						<h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Links</h5>
+						<div class="flex space-x-16 pt-4">
+							<a href="https://github.com/Jakewgonzalez">
+								<i class="fa-brands fa-github fa-2xl"></i>
+							</a>
+							<a href="https://www.linkedin.com/in/jake-gonzalez-43757b193?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BJjJ2IZl%2BQOKDQ155XHZtGQ%3D%3D">
+								<i class="fa-brands fa-linkedin fa-2xl"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
